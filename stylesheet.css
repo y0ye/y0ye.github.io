@@ -1,0 +1,71 @@
+﻿body {
+    background-color: #2D3436;
+    width: 92%;
+}
+
+h1 {
+    font-size: 50pt;
+}
+
+.navigation-bar {
+    font-size: 20pt;
+    list-style-type: none;
+    padding: 5px;
+    background-color: #2D3436;
+    font-family:'Yu Gothic';
+    width: 100%;
+}
+
+.navigation-bar a {
+    text-decoration: none;
+    color: #DFE6E9;
+    margin-right: 50px
+}
+
+a.hello-message {
+    background: linear-gradient(90deg, rgba(106,139,153,1) 0%, rgba(255,255,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Yu Gothic';
+}
+
+.body-message {
+    margin-left: auto;
+    margin-top: 250px;
+    width: 80%;
+    text-align: left;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 100px;
+    /*border: 2px solid red;*/
+}
+
+a.about-link {
+    float: right;
+    margin-right: -50px
+}
+
+li{
+    display: inline;
+}
+
+.container{
+    height: auto;
+    width: 400px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    margin-left: 300px;
+    box-shadow: 25px 40px 20px 0 rgba(0, 0, 0, 0.2), 100px 0px 100px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid #DFE6E9;
+}
+
+ul.project-info{
+    color: white;
+    margin-bottom: 5px;
+}
